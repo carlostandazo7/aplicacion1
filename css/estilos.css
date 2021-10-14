@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #EAE5E5;
+}
+
+#container{
+	width: 1100px;
+	margin: 0px auto;
+	border: 1px solid red;
+}
+
+header.cabecera{
+	background: #F7775B;
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	border-bottom: 2px dashed white;  
+}
+
+
+nav.menuprincipal{
+	background: #F7775B;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	border-bottom: 2px dashed white;
+}
+aside{
+	float: left;
+	width: 29.8%;
+	background: #F7775B;
+	min-height: 300px;
+	line-height: 50px;
+	border-bottom: 2px dashed white;
+	border-right: 2px dashed white;
+}
+
+section.seccion{
+	float: left;
+	width: 70%;
+	min-height: 150px;
+	background: #F7775B;
+	text-align: center;
+	line-height: 100px;
+
+}
+header.articulo{
+	float: left;
+	width: 70%;
+	min-height: 150px;
+	background: #F7775B;
+	text-align: center;
+	line-height: 100px;
+	border-bottom: 2px dashed white;
+}
+
+footer.piepagina{
+	background: #F7775B;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
+
+.clearfix{
+	clear: both;
+}
